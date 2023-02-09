@@ -16,3 +16,7 @@ btnEl.addEventListener("click", function() {
   volumeEl.innerHTML = `${inputEl.value} litres = ${litres.toFixed(3)} gallons | ${inputEl.value} gallons = ${gallons.toFixed(3)}`
   massEl.innerHTML = `${inputEl.value} kilograms = ${kilos.toFixed(3)} pounds | ${inputEl.value} pounds = ${pounds.toFixed(3)}`
 })
+
+inputEl.addEventListener("click", function() {
+  inputEl.value = ""
+})
