@@ -15,6 +15,4 @@ btnEl.addEventListener("click", function() {
   lengthEl.innerHTML = `${inputEl.value} metres = ${metres.toFixed(3)} feet | ${inputEl.value} feet = ${feet.toFixed(3)}`
   volumeEl.innerHTML = `${inputEl.value} litres = ${litres.toFixed(3)} gallons | ${inputEl.value} gallons = ${gallons.toFixed(3)}`
   massEl.innerHTML = `${inputEl.value} kilograms = ${kilos.toFixed(3)} pounds | ${inputEl.value} pounds = ${pounds.toFixed(3)}`
-
-  inputEl.value = ""
 })
