@@ -12,13 +12,14 @@ body {
 }
 
 #container {
-  border: 1px solid grey;
-  margin-top: 75px;
+  border: 1.5px solid grey;
+  margin-top: 25px;
   width: 500px;
   height: 500px;
   display: table;
   vertical-align: middle;
   border-radius: 6px;
+  margin-bottom: 25px;
 }
 
 #banner {
