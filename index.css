@@ -13,13 +13,11 @@ body {
 
 #container {
   border: 1.5px solid grey;
-  margin-top: 25px;
   width: 500px;
   height: 500px;
   display: table;
   vertical-align: middle;
   border-radius: 6px;
-  margin-bottom: 25px;
 }
 
 #banner {
@@ -73,4 +71,26 @@ button:hover {
   font-weight: lighter;
   color: #5A537B;
   padding: 10px;
+}
+
+@media (min-width: 800px) {
+  #container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 800px) {
+  input {
+    height: 50px;
+    width: 80px;
+  }
+
+  button {
+    padding: 20px 40px;
+  }
+
+  #container {
+    border: none;
+  }
 }

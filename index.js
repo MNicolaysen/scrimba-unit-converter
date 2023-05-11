@@ -12,9 +12,9 @@ btnEl.addEventListener("click", function() {
   const gallons = inputEl.value * 4.456
   const pounds = inputEl.value * 0.453
 
-  lengthEl.innerHTML = `${inputEl.value} metres = ${metres.toFixed(3)} feet | ${inputEl.value} feet = ${feet.toFixed(3)}`
-  volumeEl.innerHTML = `${inputEl.value} litres = ${litres.toFixed(3)} gallons | ${inputEl.value} gallons = ${gallons.toFixed(3)}`
-  massEl.innerHTML = `${inputEl.value} kilograms = ${kilos.toFixed(3)} pounds | ${inputEl.value} pounds = ${pounds.toFixed(3)}`
+  lengthEl.innerHTML = `${inputEl.value} M = ${metres.toFixed(3)} Ft | ${inputEl.value} Ft = ${feet.toFixed(3)} M`
+  volumeEl.innerHTML = `${inputEl.value} L = ${litres.toFixed(3)} Gallons | ${inputEl.value} Gallons = ${gallons.toFixed(3)} L`
+  massEl.innerHTML = `${inputEl.value} KG = ${kilos.toFixed(3)} Lbs | ${inputEl.value} Lbs = ${pounds.toFixed(3)} KG`
 })
 
 inputEl.addEventListener("click", function() {
